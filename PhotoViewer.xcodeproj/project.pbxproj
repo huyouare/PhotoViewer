@@ -14,13 +14,16 @@
 		839B4B4F1927039300D21A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B4E1927039300D21A95 /* main.m */; };
 		839B4B531927039300D21A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B521927039300D21A95 /* AppDelegate.m */; };
 		839B4B561927039300D21A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839B4B541927039300D21A95 /* Main.storyboard */; };
-		839B4B591927039300D21A95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B581927039300D21A95 /* ViewController.m */; };
 		839B4B5B1927039300D21A95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839B4B5A1927039300D21A95 /* Images.xcassets */; };
 		839B4B621927039300D21A95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B4B611927039300D21A95 /* XCTest.framework */; };
 		839B4B631927039300D21A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B4B421927039300D21A95 /* Foundation.framework */; };
 		839B4B641927039300D21A95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839B4B461927039300D21A95 /* UIKit.framework */; };
 		839B4B6C1927039300D21A95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 839B4B6A1927039300D21A95 /* InfoPlist.strings */; };
 		839B4B6E1927039300D21A95 /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B6D1927039300D21A95 /* PhotoViewerTests.m */; };
+		839B4B791927051600D21A95 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B781927051600D21A95 /* Photo.m */; };
+		839B4B7C192707BB00D21A95 /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B7B192707BB00D21A95 /* PhotosTableViewController.m */; };
+		839B4B7F192707D300D21A95 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B7E192707D300D21A95 /* DisplayViewController.m */; };
+		839B4B82192707DA00D21A95 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B4B81192707DA00D21A95 /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		839B4B511927039300D21A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		839B4B521927039300D21A95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		839B4B551927039300D21A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		839B4B571927039300D21A95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		839B4B581927039300D21A95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		839B4B5A1927039300D21A95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		839B4B601927039300D21A95 /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839B4B611927039300D21A95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		839B4B691927039300D21A95 /* PhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
 		839B4B6B1927039300D21A95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		839B4B6D1927039300D21A95 /* PhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerTests.m; sourceTree = "<group>"; };
+		839B4B771927051600D21A95 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		839B4B781927051600D21A95 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		839B4B7A192707BB00D21A95 /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		839B4B7B192707BB00D21A95 /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
+		839B4B7D192707D300D21A95 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		839B4B7E192707D300D21A95 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		839B4B80192707DA00D21A95 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		839B4B81192707DA00D21A95 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				839B4B511927039300D21A95 /* AppDelegate.h */,
 				839B4B521927039300D21A95 /* AppDelegate.m */,
 				839B4B541927039300D21A95 /* Main.storyboard */,
-				839B4B571927039300D21A95 /* ViewController.h */,
-				839B4B581927039300D21A95 /* ViewController.m */,
+				839B4B771927051600D21A95 /* Photo.h */,
+				839B4B7A192707BB00D21A95 /* PhotosTableViewController.h */,
+				839B4B7B192707BB00D21A95 /* PhotosTableViewController.m */,
+				839B4B7D192707D300D21A95 /* DisplayViewController.h */,
+				839B4B7E192707D300D21A95 /* DisplayViewController.m */,
+				839B4B80192707DA00D21A95 /* InfoViewController.h */,
+				839B4B81192707DA00D21A95 /* InfoViewController.m */,
+				839B4B781927051600D21A95 /* Photo.m */,
 				839B4B5A1927039300D21A95 /* Images.xcassets */,
 				839B4B491927039300D21A95 /* Supporting Files */,
 			);
@@ -249,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839B4B591927039300D21A95 /* ViewController.m in Sources */,
+				839B4B7F192707D300D21A95 /* DisplayViewController.m in Sources */,
+				839B4B791927051600D21A95 /* Photo.m in Sources */,
+				839B4B82192707DA00D21A95 /* InfoViewController.m in Sources */,
 				839B4B531927039300D21A95 /* AppDelegate.m in Sources */,
+				839B4B7C192707BB00D21A95 /* PhotosTableViewController.m in Sources */,
 				839B4B4F1927039300D21A95 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
