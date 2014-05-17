@@ -58,7 +58,7 @@
                     <navigationItem key="navigationItem" id="Wzz-IN-eCw">
                         <barButtonItem key="rightBarButtonItem" title="Details" id="pKq-Sw-Nvo">
                             <connections>
-                                <segue destination="Oa9-w3-H8Y" kind="modal" modalTransitionStyle="crossDissolve" id="8jP-Bk-2VK"/>
+                                <segue destination="Oa9-w3-H8Y" kind="modal" modalTransitionStyle="partialCurl" id="8jP-Bk-2VK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
