@@ -30,6 +30,8 @@
 {
     [super viewDidLoad];
     
+    self.title = @"Photos";
+    
     //Create array
     photos = [[NSMutableArray alloc] init];
     

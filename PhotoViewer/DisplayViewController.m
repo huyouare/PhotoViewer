@@ -34,8 +34,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
     UIImage *image = [UIImage imageNamed:self.currentPhoto.fileName];
     [self.currentImage setImage:image];
+    
+    self.title = self.currentPhoto.name;
 }
 
 - (void)didReceiveMemoryWarning
