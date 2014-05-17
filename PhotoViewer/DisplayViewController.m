@@ -24,10 +24,18 @@
     return self;
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    InfoViewController *ivc = [segue destinationViewController];
+    ivc.currentPhoto = self.currentPhoto;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIImage *image = [UIImage imageNamed:self.currentPhoto.fileName];
+    [self.currentImage setImage:image];
 }
 
 - (void)didReceiveMemoryWarning

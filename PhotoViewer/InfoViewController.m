@@ -15,6 +15,10 @@
 
 @implementation InfoViewController
 
+- (IBAction)dismiss:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,6 +32,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.detailsLabel.text = self.currentPhoto.notes;
 }
 
 - (void)didReceiveMemoryWarning

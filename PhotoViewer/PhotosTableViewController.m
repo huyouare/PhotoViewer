@@ -96,7 +96,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    Photo *current = [photos objectAtIndex:indexPath.row];
+    Photo *current = photos[indexPath.row];
     cell.textLabel.text = current.name;
     
     return cell;
@@ -146,9 +146,13 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    
+    DisplayViewController *pvc = [segue destinationViewController];
+
     
     // Pass the selected object to the new view controller.
+    
+    NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+    Photo *c = photos[path.row];
+    pvc.currentPhoto = c;
 }
-
 @end
